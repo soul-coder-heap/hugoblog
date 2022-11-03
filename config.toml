@@ -1,0 +1,4 @@
+baseURL = "https://soul-coder-heap.github.io"
+title = "YF-New-Hugo-Site"
+languageCode = "zh-CN"
+theme = "ananke"
