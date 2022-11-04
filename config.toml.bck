@@ -1,0 +1,25 @@
+baseURL = "https://soul-coder-heap.github.io"
+title = "YF-New-Hugo-Site"
+languageCode = "zh-CN"
+theme = "ananke"
+[social]
+github = "https://github.com/he2121/"
+
+[params]
+  author = '小贺'
+  bio = 'Golang 工程师'
+  description = "小贺的博客"
+  enableGoogleAnalytics = true
+  enableComments = true
+  [[params.links]]
+    name = "tag"
+    path = "/xiaohe-blog/tags"
+  [[params.links]]
+    name = "算法"
+    path = "/xiaohe-blog/算法"
+  [[params.links]]
+    name = "建站"
+    path = "/xiaohe-blog/建站"
+  [[params.links]]
+    name = "杂谈"
+    path = "/xiaohe-blog/杂谈"

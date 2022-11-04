@@ -1,3 +1,2 @@
 # hugo 博客
-## public 
-* soul-coder-heap.github.io
+public 目录是远端 soul-coder-heap.github.io
