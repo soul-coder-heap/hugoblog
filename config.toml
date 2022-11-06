@@ -1,41 +1,80 @@
 baseURL = "https://soul-coder-heap.github.io"
 title = "YF-New-Hugo-Site"
+
 languageCode = "en-us"
 theme = "ananke"
 resourceDir = "../resources"
 
-DefaultContentLanguage = '呦呦酱'
 SectionPagesMenu = "main"
 Paginate = 25 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
 
+DefaultContentLanguage = "en"
+copyright = "Nothing is Mine"
+
+defaultContentLanguageInSubdirto = true
+sectionPagesMenu = "smain"
+
 [languages]
-  [languages.'算法']
-    title = "算法"
+  [languages.en]
+    LanguageName = "English"
     weight = 1
-    contentDir = "content/algo"
-    # languageDirection = 'rtl' for Right-To-Left languages
-  [languages.'机器学习']
-    title = "机器学习"
-    weight = 2
-    contentDir = "content/ml"
-  [languages.'计算机视觉']
-    title = "计算机视觉"
-    weight = 3
-    contentDir = "content/cv"
-  [languages.'编程语言']
-    title = "编程语言"
-    weight = 4
-    contentDir = "content/program"
-  [languages.'自动驾驶']
-    title = "自动驾驶"
-    weight = 5
-    contentDir = "content/driver"
-  [languages.'呦呦酱']
-    title = "呦呦酱"
-    weight = 6
-    contentDir = "content/youyou"
+    contentDir = "content/en/"
+    [languages.en.params]
+      linkedin = "https://www.linkedin.cn/incareer/in/ACoAAD8GrHoBv7ebk3jukkNFUA7iJPJWd_WwDA0"
+      #cover_dimming_class = "bg-black-80"
+      github = "https://github.com/soul-coder-heap"
+#  [languages.zh]
+#    LanguageName = "中文"
+#    weight = 1
+#    contentDir = "content/cn/"
+#    [languages.zh.params]
+#      linkedin = "https://www.linkedin.cn/incareer/in/ACoAAD8GrHoBv7ebk3jukkNFUA7iJPJWd_WwDA0"
+#      #cover_dimming_class = "bg-black-80"
+#      github = "https://github.com/soul-coder-heap"
+
+#[languages]
+#  [languages.'算法']
+#    title = "算法"
+#    weight = 1
+#    contentDir = "content/algo"
+#    # languageDirection = 'rtl' for Right-To-Left languages
+#  [languages.'机器学习']
+#    title = "机器学习"
+#    weight = 2
+#    contentDir = "content/ml"
+#  [languages.'计算机视觉']
+#    title = "计算机视觉"
+#    weight = 3
+#    contentDir = "content/cv"
+
+#[languages]
+#  [languages.'算法']
+#    title = "算法"
+#    weight = 1
+#    contentDir = "content/algo"
+#    # languageDirection = 'rtl' for Right-To-Left languages
+#  [languages.'机器学习']
+#    title = "机器学习"
+#    weight = 2
+#    contentDir = "content/ml"
+#  [languages.'计算机视觉']
+#    title = "计算机视觉"
+#    weight = 3
+#    contentDir = "content/cv"
+#  [languages.'编程语言']
+#    title = "编程语言"
+#    weight = 4
+#    contentDir = "content/program"
+#  [languages.'自动驾驶']
+#    title = "自动驾驶"
+#    weight = 5
+#    contentDir = "content/driver"
+#  [languages.'主页']
+#    title = "主页"
+#    weight = 6
+#    contentDir = "content/"
 
 [sitemap]
   changefreq = "monthly"
