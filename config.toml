@@ -1,5 +1,5 @@
 baseURL = "https://soul-coder-heap.github.io"
-title = "YF-New-Hugo-Site"
+title = "The world of the coder."
 
 languageCode = "en-us"
 theme = "ananke"
@@ -34,47 +34,44 @@ sectionPagesMenu = "smain"
 #      #cover_dimming_class = "bg-black-80"
 #      github = "https://github.com/soul-coder-heap"
 
-#[languages]
-#  [languages.'算法']
-#    title = "算法"
-#    weight = 1
-#    contentDir = "content/algo"
-#    # languageDirection = 'rtl' for Right-To-Left languages
-#  [languages.'机器学习']
-#    title = "机器学习"
-#    weight = 2
-#    contentDir = "content/ml"
-#  [languages.'计算机视觉']
-#    title = "计算机视觉"
-#    weight = 3
-#    contentDir = "content/cv"
 
-#[languages]
-#  [languages.'算法']
-#    title = "算法"
-#    weight = 1
-#    contentDir = "content/algo"
-#    # languageDirection = 'rtl' for Right-To-Left languages
-#  [languages.'机器学习']
-#    title = "机器学习"
-#    weight = 2
-#    contentDir = "content/ml"
-#  [languages.'计算机视觉']
-#    title = "计算机视觉"
-#    weight = 3
-#    contentDir = "content/cv"
-#  [languages.'编程语言']
-#    title = "编程语言"
-#    weight = 4
-#    contentDir = "content/program"
-#  [languages.'自动驾驶']
-#    title = "自动驾驶"
-#    weight = 5
-#    contentDir = "content/driver"
-#  [languages.'主页']
-#    title = "主页"
-#    weight = 6
-#    contentDir = "content/"
+[menu]
+  [[menu.main]]
+    identifier = "program"
+    name = "前后端-算法-架构"
+    weight = 1
+    url = "/program/"
+    # languageDirection = 'rtl' for Right-To-Left languages
+  [[menu.main]]
+    identifier = "ml"
+    name = "机器学习"
+    weight = 2
+    url = "/ml"
+  [[menu.main]]
+    identifier = "cv"
+    name = "计算机视觉"
+    weight = 3
+    url = "/cv"
+  [[menu.main]]
+    identifier = "driver"
+    name = "自动驾驶"
+    weight = 4
+    url = "/driver"
+  [[menu.main]]
+    identifier = "quantitative_trading"
+    name = "量化交易"
+    weight = 5
+    url = "/quantitative_trading"
+  [[menu.main]]
+    identifier = "art"
+    name = "艺术鉴赏"
+    weight = 6
+    url = "/about"
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 7
 
 [sitemap]
   changefreq = "monthly"
