@@ -46,17 +46,17 @@ sectionPagesMenu = "smain"
     identifier = "ml"
     name = "机器学习"
     weight = 2
-    url = "/ml"
+    url = "/ml/"
   [[menu.main]]
     identifier = "cv"
     name = "计算机视觉"
     weight = 3
-    url = "/cv"
+    url = "/cv/"
   [[menu.main]]
     identifier = "driver"
     name = "自动驾驶"
     weight = 4
-    url = "/driver"
+    url = "/driver/"
   [[menu.main]]
     identifier = "quantitative_trading"
     name = "量化交易"
@@ -66,7 +66,7 @@ sectionPagesMenu = "smain"
     identifier = "art"
     name = "艺术鉴赏"
     weight = 6
-    url = "/about"
+    url = "/art/"
   [[menu.main]]
     identifier = "archives"
     name = "归档"
