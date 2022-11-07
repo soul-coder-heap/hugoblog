@@ -61,12 +61,12 @@ sectionPagesMenu = "smain"
     identifier = "quantitative_trading"
     name = "量化交易"
     weight = 5
-    url = "/quantitative_trading"
+    url = "/quantitative_trading/"
   [[menu.main]]
-    identifier = "art"
+    identifier = "arts"
     name = "艺术鉴赏"
     weight = 6
-    url = "/art/"
+    url = "/arts/"
   [[menu.main]]
     identifier = "archives"
     name = "归档"
